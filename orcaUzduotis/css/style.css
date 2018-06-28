@@ -1,0 +1,177 @@
+* {
+  box-sizing: border-box;
+
+}
+
+body {
+  padding: 0;
+  height: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #E9EBEE;
+}
+
+ .container-form {
+  margin:auto;
+  padding: 20px;
+}
+
+form {
+  margin-top: 15px;
+}
+
+.tarpas {
+margin-top: 100px;
+}
+
+#commentForm h2 {
+  font-weight: bold;
+  color: #808080;
+}
+
+.hr-bold {
+   border-color: #551E2C;
+   border-style: solid none;
+   border-width: 2px 0;
+}
+
+.bold {
+  margin-top: 0px;
+}
+
+.form-inline {
+  float:left;
+  margin-top: 5%;
+}
+
+.email {
+  margin-left: 50%;
+  max-width: 100%;
+  padding-top: 2%;
+  font-weight: bold;
+}
+
+.inputemail {
+  margin-left: 12%;
+}
+
+.name{
+padding-left: 45%;
+padding-top: 2%;
+max-width: 100%;
+font-weight: bold;
+}
+
+.inputname {
+  max-width: 100%;
+  padding-right: 103px;
+}
+
+.comment {
+  margin-left: 15%;
+  margin-top: 16%;
+  font-weight: bold;
+}
+
+.inline-comment{
+  margin: 0
+}
+
+#comment_body {
+  margin-top: 2.5%;
+  height: 100%;
+  max-width: 100%;
+}
+
+.btn {
+  margin-top: 3%;
+  margin-left: 15%;
+}
+
+.comment-body {
+  background-color: #F5F5F5;
+}
+
+.comment-media {
+  margin: auto;
+  padding: 50px;
+}
+
+.reply-link {
+  text-align: right;
+}
+
+.media-body {
+  background-color: #F5F5F5;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+/* .comment-media {
+  background-color: #E9EBEE;
+  padding: 10px;
+} */
+
+
+
+
+@media (max-width: 765px) {
+
+  .email {
+    font-weight: bold;
+    margin-left: 5%;
+    max-width: 100%;
+    padding-top: 2%;
+  }
+
+  .inputemail {
+    margin-left: 0%;
+  }
+
+
+  .name{
+  font-weight: bold;
+  padding-left: 5%;
+  padding-top: 2%;
+  max-width: 100%;
+  }
+
+  .inputname {
+    max-width: 100%;
+  }
+
+  .comment {
+    font-weight: bold;
+    margin-left: 5%;
+    margin-top: 2%;
+  }
+
+  .inline-comment{
+    margin: 0
+  }
+
+  #comment_body {
+    margin-top: 2.5%;
+    height: 100%;
+    max-width: 100%;
+  }
+
+  .btn {
+    margin-top: 3%;
+    margin-left: 0%;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+/* coment */
